@@ -1,0 +1,7 @@
+C:\Users\georg\source\repos\discountCalculator\discountCalculator\bin\Debug\discountCalculator.exe.config
+C:\Users\georg\source\repos\discountCalculator\discountCalculator\bin\Debug\discountCalculator.exe
+C:\Users\georg\source\repos\discountCalculator\discountCalculator\bin\Debug\discountCalculator.pdb
+C:\Users\georg\source\repos\discountCalculator\discountCalculator\obj\Debug\discountCalculator.csproj.AssemblyReference.cache
+C:\Users\georg\source\repos\discountCalculator\discountCalculator\obj\Debug\discountCalculator.csproj.CoreCompileInputs.cache
+C:\Users\georg\source\repos\discountCalculator\discountCalculator\obj\Debug\discountCalculator.exe
+C:\Users\georg\source\repos\discountCalculator\discountCalculator\obj\Debug\discountCalculator.pdb
