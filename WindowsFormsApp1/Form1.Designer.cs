@@ -52,7 +52,7 @@
             this.Title.Location = new System.Drawing.Point(0, 0);
             this.Title.Name = "Title";
             this.Title.Size = new System.Drawing.Size(400, 60);
-            this.Title.TabIndex = 1;
+            this.Title.TabIndex = 0;
             this.Title.Text = "Discount Calculator";
             this.Title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Title.Click += new System.EventHandler(this.Label_Click);
@@ -66,7 +66,6 @@
             this.origPrice.Location = new System.Drawing.Point(140, 93);
             this.origPrice.MaxLength = 12;
             this.origPrice.Name = "origPrice";
-            this.origPrice.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.origPrice.Size = new System.Drawing.Size(120, 29);
             this.origPrice.TabIndex = 2;
             this.origPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -85,7 +84,7 @@
             this.discount.MaxLength = 12;
             this.discount.Name = "discount";
             this.discount.Size = new System.Drawing.Size(120, 29);
-            this.discount.TabIndex = 2;
+            this.discount.TabIndex = 4;
             this.discount.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.discount.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
             this.discount.Enter += new System.EventHandler(this.discount_Enter);
@@ -100,7 +99,7 @@
             this.label2.Location = new System.Drawing.Point(142, 74);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(118, 16);
-            this.label2.TabIndex = 3;
+            this.label2.TabIndex = 1;
             this.label2.Text = "Original Price* (€):";
             this.label2.Click += new System.EventHandler(this.Label_Click);
             // 
@@ -125,7 +124,7 @@
             this.label1.Location = new System.Drawing.Point(238, 309);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(76, 16);
-            this.label1.TabIndex = 3;
+            this.label1.TabIndex = 8;
             this.label1.Text = "Final Price:";
             this.label1.Click += new System.EventHandler(this.Label_Click);
             // 
@@ -139,7 +138,7 @@
             this.button2.Location = new System.Drawing.Point(216, 225);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(120, 50);
-            this.button2.TabIndex = 4;
+            this.button2.TabIndex = 0;
             this.button2.Text = "Calculate";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -153,7 +152,7 @@
             this.label4.Location = new System.Drawing.Point(82, 309);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(81, 16);
-            this.label4.TabIndex = 3;
+            this.label4.TabIndex = 7;
             this.label4.Text = "You Saved:";
             this.label4.Click += new System.EventHandler(this.Label_Click);
             // 
@@ -167,7 +166,7 @@
             this.button1.Location = new System.Drawing.Point(63, 225);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(120, 50);
-            this.button1.TabIndex = 4;
+            this.button1.TabIndex = 5;
             this.button1.Text = "Reset";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -181,7 +180,7 @@
             this.label5.Location = new System.Drawing.Point(216, 353);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(120, 50);
-            this.label5.TabIndex = 5;
+            this.label5.TabIndex = 10;
             this.label5.Text = "NaN";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label5.Click += new System.EventHandler(this.Label_Click);
@@ -195,7 +194,7 @@
             this.label6.Location = new System.Drawing.Point(63, 353);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(120, 50);
-            this.label6.TabIndex = 5;
+            this.label6.TabIndex = 9;
             this.label6.Text = "NaN";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label6.Click += new System.EventHandler(this.Label_Click);
@@ -208,7 +207,7 @@
             this.label7.Location = new System.Drawing.Point(3, 475);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(102, 16);
-            this.label7.TabIndex = 3;
+            this.label7.TabIndex = 11;
             this.label7.Text = "* required fields";
             this.label7.Click += new System.EventHandler(this.Label_Click);
             // 
@@ -238,6 +237,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.RightToLeftLayout = true;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Discount Calculator";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.Click += new System.EventHandler(this.Form1_Click);

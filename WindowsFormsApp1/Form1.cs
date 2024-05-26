@@ -18,6 +18,7 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
+            
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -111,8 +112,6 @@ namespace WindowsFormsApp1
             {
                 e.Handled = true;
             }
-
-            
         }
 
         private void button2_Click(object sender, EventArgs e)
