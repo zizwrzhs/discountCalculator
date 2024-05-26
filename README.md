@@ -1,2 +1,2 @@
 # Discount Calculator
- Implementing a discount calculator program using C#sasftfaasdas.
+ Implementing a discount calculator program using C#.
