@@ -37,11 +37,6 @@ namespace WindowsFormsApp1
             
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void textBox1_TextChanged_1(object sender, EventArgs e)
         {
         }
@@ -84,21 +79,10 @@ namespace WindowsFormsApp1
 
         private void origPrice_KeyPress(object sender, KeyPressEventArgs e)
         {
-
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && e.KeyChar != '.')
+            if (origPrice.Text == "0" && e.KeyChar != '.')
             {
-                e.Handled = true;
+                origPrice.Text = "";
             }
-
-            if (e.KeyChar == '.' && (sender as TextBox).Text.Contains('.'))
-            {
-                e.Handled = true;
-            }
-        }
-
-        private void discount_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            bool flag = false;
 
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && e.KeyChar != '.' && e.KeyChar != '-')
             {
@@ -111,14 +95,24 @@ namespace WindowsFormsApp1
             }
         }
 
-        private void label1_Click_1(object sender, EventArgs e)
+        private void discount_KeyPress(object sender, KeyPressEventArgs e)
         {
+            if (discount.Text == "0" && e.KeyChar != '.')
+            {
+                discount.Text = "";
+            }
 
-        }
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && e.KeyChar != '.' && e.KeyChar != '-')
+            {
+                e.Handled = true;
+            }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
+            if ((e.KeyChar == '.' && (sender as TextBox).Text.Contains('.')) || (e.KeyChar == '-' && (sender as TextBox).Text.Contains('-')))
+            {
+                e.Handled = true;
+            }
 
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -127,7 +121,7 @@ namespace WindowsFormsApp1
 
             if (origPrice.Text == "" || discount.Text == "" || origPrice.Text == "e.g. 14.99" || discount.Text == "e.g. 20")
             {
-                MessageBox.Show("wrong values");
+                MessageBox.Show("Please make sure all required fields are filled in.", "Incomplete Fields", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
             {
@@ -150,6 +144,16 @@ namespace WindowsFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
             Form1_Load(sender, e);
+        }
+
+        private void Form1_Click(object sender, EventArgs e)
+        {
+            this.ActiveControl = null;
+        }
+
+        private void Label_Click(object sender, EventArgs e)
+        {
+            this.ActiveControl = null;
         }
     }
 }
