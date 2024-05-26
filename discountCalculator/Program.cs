@@ -10,7 +10,7 @@ namespace discountCalculator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("letsgooo");
+            Console.WriteLine("letsgooooo");
         }
     }
 }
