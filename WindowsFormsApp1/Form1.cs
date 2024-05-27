@@ -21,6 +21,8 @@ namespace WindowsFormsApp1
             
         }
 
+        
+
         private void Form1_Load(object sender, EventArgs e)
         {
             origPrice.Text = "e.g. 14.99";
@@ -29,8 +31,10 @@ namespace WindowsFormsApp1
             discount.Text = "e.g. 20";
             discount.ForeColor = Color.LightGray;
 
-            label5.Text = "NaN";
-            label6.Text = "NaN";
+            label5.Text = "-";
+            label5.ForeColor = Color.White;
+            label6.Text = "-";
+            label6.ForeColor = Color.White;
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -82,15 +86,21 @@ namespace WindowsFormsApp1
         {
             if (origPrice.Text == "0" && e.KeyChar != '.')
             {
-                origPrice.Text = "";
+                if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+                {
+                    e.Handled = true;
+                } else
+                {
+                    origPrice.Text = "";
+                }
             }
 
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && e.KeyChar != '.' && e.KeyChar != '-')
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && e.KeyChar != '.')
             {
                 e.Handled = true;
             }
 
-            if ((e.KeyChar == '.' && (sender as TextBox).Text.Contains('.')) || (e.KeyChar == '-' && (sender as TextBox).Text.Contains('-')))
+            if ((e.KeyChar == '.' && (sender as TextBox).Text.Contains('.')))
             {
                 e.Handled = true;
             }
@@ -100,7 +110,14 @@ namespace WindowsFormsApp1
         {
             if (discount.Text == "0" && e.KeyChar != '.')
             {
-                discount.Text = "";
+                if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+                {
+                    e.Handled = true;
+                }
+                else
+                {
+                    discount.Text = "";
+                }
             }
 
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && e.KeyChar != '.' && e.KeyChar != '-')
@@ -130,8 +147,39 @@ namespace WindowsFormsApp1
                 result = (double)num1 - (double)num1 * num2 / 100;
                 save = (double)num1 * num2 / 100;
 
-                result = Math.Round(result, 2, MidpointRounding.AwayFromZero);
-                save = Math.Round(save, 2, MidpointRounding.AwayFromZero);
+                result = Math.Round(result, 2);
+                save = Math.Round(save, 2);
+
+                if (result < num1)
+                {
+                    label5.ForeColor = Color.LightGreen;
+
+                }
+                else if (result > num1)
+                {
+                    
+                    label5.ForeColor = Color.LightCoral;
+                }
+                else if (result == num1)
+                {
+                    label5.ForeColor = Color.White;
+                }
+
+                if (save > 0)
+                {
+                    label6.ForeColor = Color.LightGreen;
+
+                }
+                else if (save < 0)
+                {
+
+                    label6.ForeColor = Color.LightCoral;
+
+                }
+                else if (save == 0)
+                {
+                    label6.ForeColor = Color.White;
+                }
 
                 label5.Text = result.ToString("0.00") + "€";
 
