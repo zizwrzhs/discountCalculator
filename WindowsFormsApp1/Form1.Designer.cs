@@ -61,6 +61,8 @@
             // origPrice
             // 
             this.origPrice.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.origPrice.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.origPrice.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.RecentlyUsedList;
             this.origPrice.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.origPrice.Font = new System.Drawing.Font("Tahoma", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.origPrice.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
@@ -79,6 +81,8 @@
             // discount
             // 
             this.discount.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.discount.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.discount.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.RecentlyUsedList;
             this.discount.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.discount.Font = new System.Drawing.Font("Tahoma", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.discount.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
@@ -89,7 +93,7 @@
             this.discount.Size = new System.Drawing.Size(119, 28);
             this.discount.TabIndex = 4;
             this.discount.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.discount.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
+            this.discount.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             this.discount.Enter += new System.EventHandler(this.discount_Enter);
             this.discount.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.discount_KeyPress);
             this.discount.Leave += new System.EventHandler(this.discount_Leave);
@@ -158,6 +162,7 @@
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Cursor = System.Windows.Forms.Cursors.Default;
             this.label4.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(83, 306);
