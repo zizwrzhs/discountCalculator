@@ -1,0 +1,14 @@
+C:\Users\georg\source\repos\discountCalculator\DiscCalc\bin\Release\DiscCalc.exe.config
+C:\Users\georg\source\repos\discountCalculator\DiscCalc\bin\Release\DiscCalc.exe.manifest
+C:\Users\georg\source\repos\discountCalculator\DiscCalc\bin\Release\DiscCalc.application
+C:\Users\georg\source\repos\discountCalculator\DiscCalc\bin\Release\DiscCalc.exe
+C:\Users\georg\source\repos\discountCalculator\DiscCalc\bin\Release\DiscCalc.pdb
+C:\Users\georg\source\repos\discountCalculator\DiscCalc\obj\Release\DiscCalc.csproj.AssemblyReference.cache
+C:\Users\georg\source\repos\discountCalculator\DiscCalc\obj\Release\DiscCalc.Form1.resources
+C:\Users\georg\source\repos\discountCalculator\DiscCalc\obj\Release\DiscCalc.Properties.Resources.resources
+C:\Users\georg\source\repos\discountCalculator\DiscCalc\obj\Release\DiscCalc.csproj.GenerateResource.cache
+C:\Users\georg\source\repos\discountCalculator\DiscCalc\obj\Release\DiscCalc.csproj.CoreCompileInputs.cache
+C:\Users\georg\source\repos\discountCalculator\DiscCalc\obj\Release\DiscCalc.exe.manifest
+C:\Users\georg\source\repos\discountCalculator\DiscCalc\obj\Release\DiscCalc.application
+C:\Users\georg\source\repos\discountCalculator\DiscCalc\obj\Release\DiscCalc.exe
+C:\Users\georg\source\repos\discountCalculator\DiscCalc\obj\Release\DiscCalc.pdb
