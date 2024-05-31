@@ -192,7 +192,15 @@ namespace WindowsFormsApp1
             }
             else
             {
-                MessageBox.Show("Please make sure valid inputs are entered.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                if (textBox == origPrice)
+                {
+                    MessageBox.Show("Please make sure valid inputs are entered.", "Original Price Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    MessageBox.Show("Please make sure valid inputs are entered.", "Discount Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                
                 // Optionally clear the invalid input
                 textBox.Text = string.Empty;
             }

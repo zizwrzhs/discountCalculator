@@ -18,19 +18,15 @@
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 250,
+      "VerticalTabListWidth": 160,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
@@ -52,7 +48,7 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\georg\\source\\repos\\discountCalculator\\WindowsFormsApp1\\Form1.cs*",
               "RelativeToolTip": "Form1.cs*",
-              "ViewState": "AQIAAKYAAAAAAAAAAAAAAMIAAABLAAAA",
+              "ViewState": "AQIAALQAAAAAAAAAAAAiwMgAAABcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-26T20:20:41.976Z",
               "EditorCaption": ""
@@ -61,13 +57,14 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\discountCalculator\\WindowsFormsApp1\\Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\georg\\Source\\Repos\\discountCalculator\\WindowsFormsApp1\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\georg\\source\\repos\\discountCalculator\\WindowsFormsApp1\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\georg\\Source\\Repos\\discountCalculator\\WindowsFormsApp1\\Form1.Designer.cs",
               "RelativeToolTip": "Form1.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T20:17:07.646Z"
+              "WhenOpened": "2024-05-26T20:17:07.646Z",
+              "EditorCaption": ""
             }
           ]
         }

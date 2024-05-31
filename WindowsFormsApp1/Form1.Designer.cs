@@ -88,7 +88,7 @@
             // 
             // fpriceLabel
             // 
-            this.fpriceLabel.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.fpriceLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.fpriceLabel.AutoSize = true;
             this.fpriceLabel.BackColor = System.Drawing.Color.Transparent;
             this.fpriceLabel.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -119,7 +119,7 @@
             // 
             // savedLabel
             // 
-            this.savedLabel.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.savedLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.savedLabel.AutoSize = true;
             this.savedLabel.BackColor = System.Drawing.Color.Transparent;
             this.savedLabel.Cursor = System.Windows.Forms.Cursors.Default;
@@ -151,7 +151,7 @@
             // 
             // fprice
             // 
-            this.fprice.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.fprice.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.fprice.BackColor = System.Drawing.Color.Transparent;
             this.fprice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.fprice.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -167,7 +167,7 @@
             // 
             // saved
             // 
-            this.saved.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.saved.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.saved.BackColor = System.Drawing.Color.Transparent;
             this.saved.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.saved.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -183,7 +183,7 @@
             // 
             // reqFields
             // 
-            this.reqFields.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.reqFields.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.reqFields.BackColor = System.Drawing.Color.Transparent;
             this.reqFields.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.reqFields.ForeColor = System.Drawing.Color.DarkGray;
@@ -197,6 +197,7 @@
             // 
             // origPrice
             // 
+            this.origPrice.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.origPrice.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.origPrice.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.RecentlyUsedList;
             this.origPrice.Font = new System.Drawing.Font("Tahoma", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -213,6 +214,7 @@
             // 
             // discount
             // 
+            this.discount.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.discount.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.discount.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.RecentlyUsedList;
             this.discount.Font = new System.Drawing.Font("Tahoma", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -233,6 +235,7 @@
             this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
             this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.Untitled_3;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(400, 500);
             this.Controls.Add(this.discount);
             this.Controls.Add(this.origPrice);
