@@ -7,12 +7,15 @@
       "RelativeMoniker": "D:0:0:{B3432893-AA9E-4205-9A18-9C09FDD34916}|DiscCalc.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3432893-AA9E-4205-9A18-9C09FDD34916}|DiscCalc.csproj|c:\\users\\georg\\source\\repos\\discountcalculator\\disccalc\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3432893-AA9E-4205-9A18-9C09FDD34916}|DiscCalc.csproj|C:\\Users\\georg\\source\\repos\\discountCalculator\\DiscCalc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3432893-AA9E-4205-9A18-9C09FDD34916}|DiscCalc.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3432893-AA9E-4205-9A18-9C09FDD34916}|DiscCalc.csproj|C:\\Users\\georg\\source\\repos\\discountCalculator\\DiscCalc\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3432893-AA9E-4205-9A18-9C09FDD34916}|DiscCalc.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3432893-AA9E-4205-9A18-9C09FDD34916}|DiscCalc.csproj|c:\\users\\georg\\source\\repos\\discountcalculator\\disccalc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3432893-AA9E-4205-9A18-9C09FDD34916}|DiscCalc.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\georg\\source\\repos\\discountCalculator\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +25,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,29 +37,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\discountCalculator\\DiscCalc\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\georg\\source\\repos\\discountCalculator\\DiscCalc\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T17:37:10.089Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\discountCalculator\\DiscCalc\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\georg\\source\\repos\\discountCalculator\\DiscCalc\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T17:37:07.283Z",
-              "EditorCaption": ""
+              "DocumentIndex": 3,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\discountCalculator\\README.md",
+              "RelativeDocumentMoniker": "..\\README.md",
+              "ToolTip": "C:\\Users\\georg\\source\\repos\\discountCalculator\\README.md",
+              "RelativeToolTip": "..\\README.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-05-31T17:41:12.522Z"
             },
             {
               "$type": "Document",
@@ -64,11 +53,35 @@
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\discountCalculator\\DiscCalc\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\georg\\source\\repos\\discountCalculator\\DiscCalc\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\georg\\source\\repos\\discountCalculator\\DiscCalc\\Form1.cs [Design]*",
+              "RelativeToolTip": "Form1.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-31T17:37:02.398Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\discountCalculator\\DiscCalc\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\georg\\source\\repos\\discountCalculator\\DiscCalc\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T17:37:10.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\discountCalculator\\DiscCalc\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\georg\\source\\repos\\discountCalculator\\DiscCalc\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T17:37:07.283Z"
             }
           ]
         }

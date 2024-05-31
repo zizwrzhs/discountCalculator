@@ -257,7 +257,7 @@
             this.Name = "Form1";
             this.RightToLeftLayout = true;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Discount Calculator";
+            this.Text = "DiscCalc";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.Click += new System.EventHandler(this.Form1_Click);
             this.ResumeLayout(false);
