@@ -8,3 +8,7 @@ C:\Users\georg\Source\Repos\discountCalculator\WindowsFormsApp1\obj\Debug\Window
 C:\Users\georg\Source\Repos\discountCalculator\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\Users\georg\Source\Repos\discountCalculator\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\georg\Source\Repos\discountCalculator\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\georg\Source\Repos\discountCalculator\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.manifest
+C:\Users\georg\Source\Repos\discountCalculator\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.application
+C:\Users\georg\Source\Repos\discountCalculator\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.manifest
+C:\Users\georg\Source\Repos\discountCalculator\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.application
