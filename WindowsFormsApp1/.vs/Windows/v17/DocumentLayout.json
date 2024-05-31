@@ -18,7 +18,7 @@
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 160,
+      "VerticalTabListWidth": 120,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
@@ -34,8 +34,8 @@
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\discountCalculator\\WindowsFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\georg\\source\\repos\\discountCalculator\\WindowsFormsApp1\\Form1.cs [Design]*",
-              "RelativeToolTip": "Form1.cs [Design]*",
+              "ToolTip": "C:\\Users\\georg\\source\\repos\\discountCalculator\\WindowsFormsApp1\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-26T20:16:31.199Z",
               "EditorCaption": " [Design]"
@@ -46,9 +46,9 @@
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\discountCalculator\\WindowsFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\georg\\source\\repos\\discountCalculator\\WindowsFormsApp1\\Form1.cs*",
-              "RelativeToolTip": "Form1.cs*",
-              "ViewState": "AQIAALQAAAAAAAAAAAAiwMgAAABcAAAA",
+              "ToolTip": "C:\\Users\\georg\\source\\repos\\discountCalculator\\WindowsFormsApp1\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAiwMgAAABcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-26T20:20:41.976Z",
               "EditorCaption": ""
