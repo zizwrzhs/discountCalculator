@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApp1
+﻿namespace GeorgopetrisDiscountCalculator
 {
     partial class Form1
     {
@@ -234,7 +234,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.Untitled_3;
+            this.BackgroundImage = global::GeorgopetrisDiscountCalculator.Properties.Resources.Untitled_3;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(400, 500);
             this.Controls.Add(this.discount);

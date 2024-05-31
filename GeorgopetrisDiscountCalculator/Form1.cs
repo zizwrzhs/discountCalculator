@@ -13,7 +13,7 @@ using System.Windows.Forms.VisualStyles;
 
 
 
-namespace WindowsFormsApp1
+namespace GeorgopetrisDiscountCalculator
 {
     public partial class Form1 : Form   
     {
