@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DiscCalc.exe" size="240088">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DiscCalc.exe" size="240600">
       <assemblyIdentity name="DiscCalc" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>1WSueEsEqbLLTiC/uH8G2Yspl+PaM43ye1StCeKMaF8=</dsig:DigestValue>
+        <dsig:DigestValue>38Z3qrlNg0WOe1fvf5FD47m+Fj5I4d6LUEHm12d3SuE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
