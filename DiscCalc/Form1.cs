@@ -148,30 +148,35 @@ namespace DiscCalc
             }
             else
             {
-
-                num1 = Convert.ToDouble(origPrice.Text);
-                num2 = Convert.ToDouble(discount.Text);
-                save = num1 * num2 / 100.0;
-                result = num1 - save;
-
-                save = Math.Round(save, 2);
-
-                if (result < num1)
+                // Ensure the text is interpreted as using the dot as the decimal separator
+                // CHAT GPT ↓
+                if (double.TryParse(origPrice.Text, NumberStyles.Any, CultureInfo.InvariantCulture, out num1) &&
+                    double.TryParse(discount.Text, NumberStyles.Any, CultureInfo.InvariantCulture, out num2))
                 {
-                    fprice.ForeColor = Color.LightGreen;
-                    saved.ForeColor = Color.LightGreen;
+                // CHAT GPT ↑
+
+                    save = num1 * num2 / 100.0;
+                    result = num1 - save;
+
+                    save = Math.Round(save, 2);
+
+                    if (result < num1)
+                    {
+                        fprice.ForeColor = Color.LightGreen;
+                        saved.ForeColor = Color.LightGreen;
+                    }
+                    else
+                    {
+                        fprice.ForeColor = Color.White;
+                        saved.ForeColor = Color.White;
+                    }
+
+                    CultureInfo culture = new CultureInfo("el-GR");
+
+                    fprice.Text = string.Format(culture, "{0:C}", result);
+
+                    saved.Text = string.Format(culture, "{0:C}", save);
                 }
-                else
-                {
-                    fprice.ForeColor = Color.White;
-                    saved.ForeColor = Color.White;
-                }
-
-                CultureInfo culture = new CultureInfo("el-GR");
-
-                fprice.Text = string.Format(culture, "{0:C}", result);
-
-                saved.Text = string.Format(culture, "{0:C}", save);
             }
         }
 
