@@ -55,7 +55,7 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\georg\\source\\repos\\discountCalculator\\DiscCalc\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAIIAAAAAAAAAAAA9wJsAAAAQAAAA",
+              "ViewState": "AQIAAIMAAAAAAAAAAAAowJsAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-31T17:37:10.089Z",
               "EditorCaption": ""
@@ -69,8 +69,7 @@
               "ToolTip": "C:\\Users\\georg\\source\\repos\\discountCalculator\\DiscCalc\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T17:37:02.398Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-31T17:37:02.398Z"
             },
             {
               "$type": "Document",
@@ -82,8 +81,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T17:37:07.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-31T17:37:07.283Z"
             }
           ]
         }
